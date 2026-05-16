@@ -1,4 +1,3 @@
-```markdown
 # DCF - Data Cryptography File Tool
 
 A C++17 command-line utility for creating and extracting encrypted archives using modern **ChaCha20-Poly1305 AEAD** and **SHA-256** key derivation.
