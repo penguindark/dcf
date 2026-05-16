@@ -198,4 +198,3 @@ The tool leverages **ChaCha20-Poly1305**, widely regarded as one of the most sec
 ## License
 
 This project is provided under Mozilla Public License 2.0 (MPL 2.0).
-```
