@@ -2,6 +2,8 @@
 
 A C++17 command-line utility for creating and extracting encrypted archives using modern **ChaCha20-Poly1305 AEAD** and **SHA-256** key derivation.
 
+Copyright (c) 2026 Dario Deledda. All rights reserved.
+
 ## Features
 
 - **Encrypt** files or folders into a single `.dcf` archive
@@ -192,8 +194,6 @@ Integrity is strictly enforced at two levels:
 The tool leverages **ChaCha20-Poly1305**, widely regarded as one of the most secure and performant modern software-based stream ciphers (used heavily in TLS 1.3 and WireGuard). 
 
 *Note: While SHA-256 is used to derive distinct internal stream keys and nonces to avoid key/nonce reuse across chunks, it is a fast hash. For extreme, nation-state level threat models, pre-hashing your chosen password with a memory-hard KDF (like Argon2 or PBKDF2) before providing it to the CLI is recommended.*
-
-
 
 ## License
 
