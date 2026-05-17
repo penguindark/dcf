@@ -7,7 +7,7 @@
 // that can be found in the LICENSE file.
 // 
 // Usage:
-//   Compile: v -prod crypto.v
+//   Compile: v -prod crypto.v -o dcf
 //   Encrypt: ./dcf <file(s) or folder> [-o output.dcf] [-p key]
 //   Decrypt: ./dcf <archive.dcf> [-p key]
 // ============================================================================
