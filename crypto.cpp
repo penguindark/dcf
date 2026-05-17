@@ -2,6 +2,10 @@
 // DCF - Data Cryptography File Tool
 // C++17 CLI utility for encrypted archive creation and extraction
 // 
+// Copyright (c) 2026 Dario Deledda. All rights reserved.
+// Use of this source code is governed by an MPL 2.0 license
+// that can be found in the LICENSE file.
+//
 // Usage:
 //   Compile: g++ -std=c++17 -O3 -Wall -o dcf dcf.cpp
 //            (On Windows/MSVC: cl /std:c++17 /O2 /EHsc dcf.cpp)

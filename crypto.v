@@ -1,6 +1,10 @@
 // ============================================================================
 // DCF - Data Cryptography File Tool (V Port)
 // V utility for encrypted archive creation and extraction
+//
+// Copyright (c) 2026 Dario Deledda. All rights reserved.
+// Use of this source code is governed by an MPL 2.0 license
+// that can be found in the LICENSE file.
 // 
 // Usage:
 //   Compile: v -prod dcf.v
